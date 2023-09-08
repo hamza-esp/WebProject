@@ -40,7 +40,7 @@
                             */
                             // On insère dans la base de données
                             $role = "client";
-                            if (str_contains($email, '@ark.com')) { 
+                            if (str_contains($email, '@admin.com')) { 
                                 $role = "admin";
                             }
 

@@ -145,7 +145,7 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="#">
+                                                    <a href="../usermodif.php">
                                                         <i class="zmdi zmdi-account"></i>Account</a>
                                                 </div>
                                                 <div class="account-dropdown__item">
@@ -158,7 +158,7 @@
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="#">
+                                                <a href="../../controller/userC/deconnexion.php">
                                                     <i class="zmdi zmdi-power"></i>Logout</a>
                                             </div>
                                         </div>

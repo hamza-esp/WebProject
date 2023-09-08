@@ -40,7 +40,7 @@ include "../../config.php";
 
                     }elseif($data['role'] == "admin"){
                         $_SESSION['role'] = "admin";
-                        header('Location:../../view/admin/index.php');
+                        header('Location:../../view/admin/avis.php');
                         die();
                     }
                     

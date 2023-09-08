@@ -33,7 +33,7 @@ class utilisateursC
     function GetUSER($id)
     {
         $db = config::getConnexion();
-        $req = $db->prepare('SELECT * FROM utilisateurs WHERE token = ?');
+        $req = $db->prepare('SELECT * FROM utilisateurs WHERE id = ?');
         $req->execute(array($id));
         $data = $req->fetch();
         return $data;
